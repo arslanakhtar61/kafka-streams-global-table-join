@@ -1,0 +1,47 @@
+1st Run Console Output:
+
+UserTransformer Message => Key: americas, Value: 4
+UserTransformer => keyValueStore..approximateNumEntries(): 0
+UserTransformer => regionTopExport: null
+UserTransformer Message => Key: asia, Value: 25
+UserTransformer => keyValueStore..approximateNumEntries(): 0
+UserTransformer => regionTopExport: null
+UserTransformer Message => Key: americas, Value: 19
+UserTransformer => keyValueStore..approximateNumEntries(): 0
+UserTransformer => regionTopExport: null
+UserTransformer Message => Key: europe, Value: 56
+UserTransformer => keyValueStore..approximateNumEntries(): 0
+UserTransformer => regionTopExport: null
+UserTransformer Message => Key: americas, Value: 78
+UserTransformer => keyValueStore..approximateNumEntries(): 0
+UserTransformer => regionTopExport: null
+UserTransformer Message => Key: europe, Value: 40
+UserTransformer => keyValueStore..approximateNumEntries(): 0
+UserTransformer => regionTopExport: null
+UserTransformer Message => Key: asia, Value: 99
+UserTransformer => keyValueStore..approximateNumEntries(): 0
+UserTransformer => regionTopExport: null
+
+2nd Run Console Output:
+
+UserTransformer Message => Key: americas, Value: 4
+UserTransformer => keyValueStore..approximateNumEntries(): 3
+UserTransformer => regionTopExport: coffee
+UserTransformer Message => Key: asia, Value: 25
+UserTransformer => keyValueStore..approximateNumEntries(): 3
+UserTransformer => regionTopExport: apples
+UserTransformer Message => Key: americas, Value: 19
+UserTransformer => keyValueStore..approximateNumEntries(): 3
+UserTransformer => regionTopExport: coffee
+UserTransformer Message => Key: europe, Value: 56
+UserTransformer => keyValueStore..approximateNumEntries(): 3
+UserTransformer => regionTopExport: eggs
+UserTransformer Message => Key: americas, Value: 78
+UserTransformer => keyValueStore..approximateNumEntries(): 3
+UserTransformer => regionTopExport: coffee
+UserTransformer Message => Key: europe, Value: 40
+UserTransformer => keyValueStore..approximateNumEntries(): 3
+UserTransformer => regionTopExport: eggs
+UserTransformer Message => Key: asia, Value: 99
+UserTransformer => keyValueStore..approximateNumEntries(): 3
+UserTransformer => regionTopExport: apples
