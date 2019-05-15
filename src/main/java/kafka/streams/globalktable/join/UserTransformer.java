@@ -25,9 +25,9 @@ public class UserTransformer implements Transformer<String, Long, KeyValue<Strin
     public KeyValue<String, Long> transform(String user, Long value) {
         if (user != null) {
             System.out.println("UserTransformer Message => Key: " +  user + ", Value: " + value);
-            System.out.println("UserTransformer => keyValueStore..approximateNumEntries(): " +  keyValueStore.approximateNumEntries());
+            System.out.println("UserTransformer => keyValueStore.approximateNumEntries(): " +  keyValueStore.approximateNumEntries());
             String regionTopExport = keyValueStore.get(user);
-            System.out.println("UserTransformer => regionTopExport: " +  regionTopExport);
+            System.out.println("UserTransformer => regionTopExport = keyValueStore.get(" + user + "): " +  regionTopExport);
             if(regionTopExport != null){
                 //Do something with the user occupation here
             }
