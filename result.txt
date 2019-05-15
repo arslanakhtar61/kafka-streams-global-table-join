@@ -1,4 +1,4 @@
-1st Run Console Output:
+1st Run Console Output => Producer generate topic messages in order (user-clicks3, user-regions, region-top-exports)
 
 UserTransformer Message => Key: americas, Value: 4
 UserTransformer => keyValueStore..approximateNumEntries(): 0
@@ -22,7 +22,7 @@ UserTransformer Message => Key: asia, Value: 99
 UserTransformer => keyValueStore..approximateNumEntries(): 0
 UserTransformer => regionTopExport: null
 
-2nd Run Console Output:
+2nd Run Console Output => Producer generate topic messages in order (user-clicks3, user-regions, region-top-exports)
 
 UserTransformer Message => Key: americas, Value: 4
 UserTransformer => keyValueStore..approximateNumEntries(): 3
@@ -45,3 +45,31 @@ UserTransformer => regionTopExport: eggs
 UserTransformer Message => Key: asia, Value: 99
 UserTransformer => keyValueStore..approximateNumEntries(): 3
 UserTransformer => regionTopExport: apples
+
+
+1st Run Console Output => Producer generate topic messages in order (region-top-exports, user-clicks3, user-regions)
+
+UserTransformer Message => Key: europe, Value: 13
+UserTransformer => keyValueStore.approximateNumEntries(): 0
+UserTransformer => regionTopExport = keyValueStore.get(europe): eggs
+UserTransformer Message => Key: americas, Value: 4
+UserTransformer => keyValueStore.approximateNumEntries(): 0
+UserTransformer => regionTopExport = keyValueStore.get(americas): coffee
+UserTransformer Message => Key: asia, Value: 25
+UserTransformer => keyValueStore.approximateNumEntries(): 0
+UserTransformer => regionTopExport = keyValueStore.get(asia): apples
+UserTransformer Message => Key: americas, Value: 19
+UserTransformer => keyValueStore.approximateNumEntries(): 0
+UserTransformer => regionTopExport = keyValueStore.get(americas): coffee
+UserTransformer Message => Key: europe, Value: 56
+UserTransformer => keyValueStore.approximateNumEntries(): 0
+UserTransformer => regionTopExport = keyValueStore.get(europe): eggs
+UserTransformer Message => Key: americas, Value: 78
+UserTransformer => keyValueStore.approximateNumEntries(): 0
+UserTransformer => regionTopExport = keyValueStore.get(americas): coffee
+UserTransformer Message => Key: europe, Value: 40
+UserTransformer => keyValueStore.approximateNumEntries(): 0
+UserTransformer => regionTopExport = keyValueStore.get(europe): eggs
+UserTransformer Message => Key: asia, Value: 99
+UserTransformer => keyValueStore.approximateNumEntries(): 0
+UserTransformer => regionTopExport = keyValueStore.get(asia): apples
